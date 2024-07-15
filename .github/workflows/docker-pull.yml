@@ -14,15 +14,15 @@ on:
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
-        default: 'registry.cn-chengdu.aliyuncs.com'
+        default: 'registry-vpc.cn-beijing.aliyuncs.com'
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'aopkcn'
+        default: 'ai_agent'
       ARCH:
         description: '系统架构'
         required: true
-        default: 'amd64'
+        default: 'arm64'
         type: choice
         options:
           - amd64
